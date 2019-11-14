@@ -14,5 +14,5 @@ https://hub.docker.com/r/drydockcloud/ci-secrender
 
 ```
 docker pull drydockcloud/ci-secrender
-docker run drydockcloud/ci-secrender
+docker run -v $PWD:/src drydockcloud/ci-secrender --in example-ssp.yaml --template example-ssp.md.j2
 ```
