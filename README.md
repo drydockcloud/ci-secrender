@@ -10,7 +10,7 @@ You will need to have Docker installed. See the [Install Docker docs](https://do
 
 [Available on Docker Hub](https://hub.docker.com/r/drydockcloud/ci-secrender)
 
-The __Secrender tool_ code can be found [here](https://github.com/CivicActions/secrender)
+The _Secrender tool_ code can be found [here](https://github.com/CivicActions/secrender)
 
 ### Secrender Operation
 
