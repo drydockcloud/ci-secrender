@@ -2,6 +2,8 @@
 
 Example tool to render a template using data loaded from a YAML file. One intended use case: load an OSCAL style YAML file and render a Jinja2 template to produce the markdown for SSP front matter.
 
+This project follows the [Drydock Pattern](https://github.com/CivicActions/drydock#what-is-the-drydock-pattern).
+
 ## Getting Started
 
 ### Prerequisites
@@ -22,6 +24,7 @@ docker run -v $PWD:/src drydockcloud/ci-secrender --in example-ssp.yaml --templa
 ## Authors
 
 * **Tom Wood** - *Initial work* - [Woodt](https://github.com/woodt)
+* **Tom Camp** - [Tom-Camp](https://github.com/Tom-Camp)
 
 ## License
 
