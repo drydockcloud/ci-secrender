@@ -5,7 +5,7 @@ COPY requirements.txt /
 RUN pip install -r /requirements.txt
 
 RUN apk add git && \
-    pip install -e git+https://github.com/CivicActions/secrender.git#egg=secrender
+    pip install git+https://github.com/CivicActions/secrender.git#egg=secrender
 
 WORKDIR /src
 ENTRYPOINT ["secrender"]
