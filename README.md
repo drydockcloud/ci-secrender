@@ -28,4 +28,4 @@ docker run -v $PWD:/src drydockcloud/ci-secrender --in example-ssp.yaml --templa
 
 ## License
 
-This project is licensed under the GNU General Public License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License version 3 or any later version - see the [LICENSE](LICENSE) file for details.
